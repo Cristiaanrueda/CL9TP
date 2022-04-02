@@ -1,0 +1,2 @@
+-EJERCICIO SIMPLE. Con los documentos adjuntos, tenemos que modificar el card para que cuando esté en versión mobile, el texto esté por debajo de la imagen!
+-AGREGAR UN NAV Y UN FOOTER
