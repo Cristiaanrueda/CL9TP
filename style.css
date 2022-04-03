@@ -93,7 +93,7 @@ html {
 
     .header {
         display: grid;
-        grid-template-columns: inherit;
+        grid-template-columns: 1fr;
         align-items: center;
     }
    
