@@ -23,6 +23,7 @@ html {
     text-align: center;
     font-weight: 100;
     margin-bottom: 10px;
+    
   }
   .header h1 {
     padding: 20px;
@@ -89,38 +90,12 @@ html {
         color: rgba(255, 255, 255, 0.3);
         text-decoration: solid;
     }
-   
 
-}
-
-@media (min-width: 18.75em) and (max-width: 43.75em) {
-
-    .card{
-        display: flex;
-        flex-direction: column;  
+    .header {
         text-align: center;
-        background: rgba(206, 125, 107, 0.808);      
-    }
-
-    .card__imagen {
-        width: 80%;
-
-    }
-
-    html{
-        font-size: 0.9rem;
-        font-weight: 700;      
-    }
-
-    .card__detalles h2 {
-        color: rgba(255, 255, 255, 0.3);
-        text-decoration: solid;
     }
    
-    .card__detalles p {
-        color: rgba(255, 255, 255, 0.3);
-        text-decoration: solid;
-    }
 
 }
+
 
