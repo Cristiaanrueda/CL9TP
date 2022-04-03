@@ -61,7 +61,7 @@ html {
     width: 100%;
   }
 
-  @media (min-width: 300px) and (max-width: 700px) {
+  @media (min-width: 18.75em) and (max-width: 43.75em) {
 
     .card{
         display: flex;
@@ -93,7 +93,7 @@ html {
 
 }
 
-@media (min-width: 5.120em) and (min-width:7.696em) {
+@media (min-width: 18.75em) and (max-width: 43.75em) {
 
     .card{
         display: flex;
