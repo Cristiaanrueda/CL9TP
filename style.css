@@ -94,7 +94,7 @@ html {
 
     .header {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 300px, 1fr;
         align-items: center;
     }
    
