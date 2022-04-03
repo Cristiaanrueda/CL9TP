@@ -78,7 +78,8 @@ html {
 
     html{
         font-size: 0.9rem;
-        font-weight: 700;      
+        font-weight: 700; 
+        margin: 0 auto;     
     }
 
     .card__detalles h2 {
