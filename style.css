@@ -124,34 +124,3 @@ html {
 
 }
 
-@media only screen and (min-device-width: 5.120em) {
-
-    .card{
-        display: flex;
-        flex-direction: column;  
-        text-align: center;
-        background: rgba(206, 125, 107, 0.808);      
-    }
-
-    .card__imagen {
-        width: 80%;
-
-    }
-
-    html{
-        font-size: 0.9rem;
-        font-weight: 700;      
-    }
-
-    .card__detalles h2 {
-        color: rgba(255, 255, 255, 0.3);
-        text-decoration: solid;
-    }
-   
-    .card__detalles p {
-        color: rgba(255, 255, 255, 0.3);
-        text-decoration: solid;
-    }
-
-
-}
