@@ -67,14 +67,12 @@ html {
         display: flex;
         flex-direction: column;  
         text-align: center;
-        background: rgba(206, 125, 107, 0.808);
-        
-        
+        background: rgba(206, 125, 107, 0.808);      
     }
 
     .card__imagen {
         width: 80%;
-        border: 2px solid black;
+
     }
 
     html{
