@@ -23,6 +23,7 @@ html {
     text-align: center;
     font-weight: 100;
     margin-bottom: 10px;
+    margin: 0 auto;
     
   }
   .header h1 {
@@ -92,12 +93,6 @@ html {
         text-decoration: solid;
     }
 
-    .header {
-        display: grid;
-        grid-template-columns: 300px, 1fr;
-        align-items: center;
-    }
-   
 
 }
 
