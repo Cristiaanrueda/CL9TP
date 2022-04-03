@@ -27,7 +27,7 @@ html {
     
   }
   .header h1 {
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .footer {
@@ -101,7 +101,7 @@ html {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        width: inherit;
+        
     }
 
 
