@@ -86,6 +86,16 @@ html {
             box-shadow:  -5px -5px 0px #405554,
             5px 5px 0px #feffff;
     }
+    .card:hover {
+            display: flex;
+            flex-direction: column;  
+            text-align: center;
+            background: rgba(206, 125, 107, 0.808);  
+            border-radius: 51px;
+            border: 0.2rem solid #9FD5D1;
+            box-shadow:  -5px -5px 0px #405554,
+            5px 5px 0px #feffff;
+    }
 
     .card__imagen {
         width: 80%;
