@@ -86,7 +86,7 @@ html {
             box-shadow:  -5px -5px 0px #405554,
             5px 5px 0px #feffff;
     }
-    .card:hover {
+    .card:focus {
             display: flex;
             flex-direction: column;  
             text-align: center;
