@@ -5,6 +5,7 @@ html {
     font-size: 10px;
     color: var(--black);
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
   }
   *,
   *:before,
@@ -16,6 +17,18 @@ html {
     min-height: calc(100vh - 100px);
     margin: 2rem;
     letter-spacing: -1px;
+  }
+
+  a{
+      background-color: rgba(0, 0, 0, 0.04);
+      text-align: center;
+      margin: 1rem;
+      padding: 0.1rem 0.2rem;
+      display: inline-block;
+      width: 100%;
+      letter-spacing: 0.16rem;
+      font-weight: 100;
+      
   }
   .header {
     background: rgba(255, 255, 255, 0.2);
@@ -39,9 +52,40 @@ html {
     font-size: 1.1rem;
   }
 
-  .nav{
-      display: flexbox;
+  .toggle {
+      display: none;
   }
+
+  .navwrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-bottom: 0.5rem;
+  }
+
+
+  .navegacion ul {
+    list-style: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navegacion li {
+    flex: 3;
+}
+
+.navegacion,
+.social {
+    flex: 1;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: white;
+
+}
 
   .contenedor-grid {
     display: grid;
@@ -133,6 +177,28 @@ html {
        
     }
 
+    .navwrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .navegacion li {
+        flex-basis: 100;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .navegacion ul {
+        display: none;
+    }
+
+    .navegacion ul.open {
+        display: flex;
+    }
+
 
     .footer {
         width: auto;
@@ -141,6 +207,18 @@ html {
     .separator {
         border: 0.2rem solid  #9FD5D1;
     }
+
+    .top {
+        width: auto;
+        height: 10rem;
+        background: url(./assets/top.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 1rem;
+
+    }
+
 
 
 }

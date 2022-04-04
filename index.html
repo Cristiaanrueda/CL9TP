@@ -10,10 +10,21 @@
     <title>Galería</title>
   </head>
   <body>
-    <div class="wrapper.nav">
-        <nav class="nav">
-            ☰ Menu 
+    <div class="navwrapper">
+        <nav class="navegacion">
+          <a href="#" class="toggle">  ☰ Menu </a>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Galeria</a></li>
+              <li><a href="#">Random</a></li>
+              <li><a href="#">Contacto</a></li>
+            <li class="social"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="social"><a href="#"><i class="fab fa-github"></i></a></li>
+          </ul>
+         
         </nav>
+    </div>
+    <div class="top">
     </div>
     <div class="separator">
     </div>
@@ -144,6 +155,17 @@
         <h2>&COPY;opyRight cris</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </footer>
+    <script>
+        const toggle = document.querySelector('.toggle');
+        console.log(toggle);
+        const navUl = document.querySelector('nav.navegacion ul');
+
+        console.log(navUl);
+
+        toggle.addEventListener('click', () => { 
+            navUl.classList.toggle('open');
+        });
+    </script>
   </body>
 </html>
 
