@@ -65,16 +65,26 @@ html {
 
   @media (min-width: 18.75em) and (max-width: 43.75em) {
 
-    * {
-        /* margin: 0 auto; */
-    }
+
 
     .card{
         display: flex;
         flex-direction: column;  
         text-align: center;
-        background: rgba(206, 125, 107, 0.808);    
-     
+        background: rgba(206, 125, 107, 0.808);  
+        border-radius: 51px;
+        border: 0.2rem solid #9FD5D1;
+    }
+
+    .card:active {
+            display: flex;
+            flex-direction: column;  
+            text-align: center;
+            background: rgba(206, 125, 107, 0.808);  
+            border-radius: 51px;
+            border: 0.2rem solid #9FD5D1;
+            box-shadow:  -5px -5px 0px #405554,
+            5px 5px 0px #feffff;
     }
 
     .card__imagen {
@@ -88,27 +98,35 @@ html {
         margin: 0 auto;     
     }
 
+
     .card__detalles h2 {
-        color: rgba(255, 255, 255, 0.3);
-        text-decoration: solid;
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
     }
-   
+
+    .card__detalles h3 {
+        color: rgb(255, 255, 255, 0.9);
+        text-decoration: none;
+    }
+
     .card__detalles p {
-        color: rgba(255, 255, 255, 0.3);
+        color: rgba(255, 255, 255, 0.7);
         text-decoration: solid;
     }
 
-    .contenedor-grid {
+
+    .wrapper {
+        width: auto;
        
     }
 
-    .header {
-        width: 300px;
-    }
-        
 
     .footer {
-        width: 300px;
+        width: auto;
+    }
+
+    .separator {
+        border: 0.2rem solid  #9FD5D1;
     }
 
 
