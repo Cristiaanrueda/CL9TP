@@ -65,19 +65,30 @@ html {
 
   @media (min-width: 18.75em) and (max-width: 43.75em) {
 
+    body{
+        background: rgba(225,115,102, 0.836);
+    }
+
 
 
     .card{
         display: flex;
         flex-direction: column;  
         text-align: center;
-        background: rgba(206, 125, 107, 0.808);  
+        background: rgba(229, 148, 130, 0.911);  
         border-radius: 51px;
         border: 0.2rem solid #9FD5D1;
     }
+    /* .card{
+        display: flex;
+        flex-direction: column;  
+        text-align: center;
+        background: rgba(206, 125, 107, 0.808);  
+        border-radius: 51px;
+        border: 0.2rem solid #9FD5D1;
+    } */
 
     .card:active,
-    .card:hover,
     .card:focus {
             display: flex;
             flex-direction: column;  
@@ -85,8 +96,8 @@ html {
             background: rgba(206, 125, 107, 0.808);  
             border-radius: 51px;
             border: 0.2rem solid #9FD5D1;
-            box-shadow:  -5px -5px 0px #405554,
-            5px 5px 0px #feffff;
+            box-shadow: inset 5px 5px 0px #698d8a,
+            inset -5px -5px 0px #b5e4e4;
     }
 
     .card__imagen {
