@@ -175,35 +175,46 @@ html {
     .formulario__form input {
         width: 230px;
         margin-bottom: 1rem;
-        background: rgba(225, 114, 102, 0);
+        background: rgba(225, 114, 102, 0.315);
         color: rgba(255, 255, 255, 0.952);
-
+        border: 0.2rem solid #9FD5D1;
         
     }
+
+
 
     .formulario__form h3 {
         text-align: center;
         color: rgb(255, 255, 255);
         text-decoration: underline;
     }
+
+    .outlineout {
+        outline: 0;
+    }
     
 	
 	textarea {
-		background: rgba(225, 114, 102, 0);
+		background: rgba(225, 114, 102, 0.315);
         color: rgba(255, 255, 255, 0.952);
 		resize: none;
 		height: 15rem;
 		margin-bottom: 1.5rem;
-		border-width: 0.2rem;
-        border-style: inset;
-        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border: 0.2rem solid #9FD5D1;
+        outline: 0;
 
 	}
 	
 	#enviar {
 		width: 115px;
 		height: 4rem;
-		margin-left: 6rem;
+		margin-left: 5rem;
+        background: rgb(229, 148, 130);
+        border: 0.2rem solid #9FD5D1;
+	}
+
+    #enviar:visited {
+        background: rgba(161, 26, 11, 0.986);
 	}
 
     .separator {
